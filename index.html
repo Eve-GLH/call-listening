@@ -5,23 +5,41 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Call Listening</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Call Listening Sheet</h1>
+    </header>
     <section class="title call-details">
         <h2>Call Details</h2>
         <p class="question">Reviewer Name</p>
         <div class="answer-section">
-
+            <input type="text" name="reviewerName" /><label for="reviewerName">Reviewer Name</label>
         </div>
         <p class="question">Agent Name</p>
         <div class="answer-section">
-
+            <input type="text" name="agentName" /><label for="agentName">Agent Name</label>
         </div>
         <p class="question">Agent Extension</p>
         <div class="answer-section">
-
+            <select name="agentExtension" id="agentExtension">
+                <option value="101">101</option>
+                <option value="102">102</option>
+                <option value="103">103</option>
+                <option value="104">104</option>
+                <option value="105">105</option>
+                <option value="106">106</option>
+                <option value="107">107</option>
+                <option value="108">108</option>
+                <option value="109">109</option>
+                <option value="112">112</option>
+                <option value="113">113</option>
+                <option value="114">114</option>
+                <option value="116">116</option>
+                <option value="117">117</option>
+            </select>
         </div>
         <p class="question">Department</p>
         <div class="answer-section">
